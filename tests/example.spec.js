@@ -18,5 +18,10 @@ test('homepage has Playwright in title and get started link linking to the intro
   
   // Expects the URL to contain intro.
   await expect(page).toHaveURL(/.*intro/);
+
+});
+
+test('failed', async ({ page }) => {
+  expect(false).toBe(true);
   
 });
